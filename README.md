@@ -8,7 +8,7 @@ sudo apt install nodejs
 nodejs – version﻿
 ______________________________________________
 3.install npm 
-sudo apt install npm
+sudo apt install npm  -y
 npm -v
 ……
 ______________________________________________
@@ -38,7 +38,8 @@ ______________________________________________
 #create .bash_profile
 #add .bashrc
 ______________________________________________
-export ANDROID_HOME=$HOME/phamha/Android/Sdk
+??echo $HOME
+export ANDROID_HOME=$HOME/phamha/Android/Sdk  || /home/phamha/
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
