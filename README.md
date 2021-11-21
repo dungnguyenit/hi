@@ -94,8 +94,7 @@ _________________
 **x.x:install vi-eg ==ibus
 
 sudo add-apt-repository ppa:ubuntu-vn/ppa
-sudo apt install im-config ibus ibus-gtk ibus-gtk3
-sudo apt-get install ibus-unikey   ///20.04
+sudo apt-get install ibus-unikey  
 ibus-setup
 setting->region&&Language->add->vietnamese(Unikey)->ibus restart
 logout->login
