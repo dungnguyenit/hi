@@ -112,6 +112,8 @@ wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt update
 sudo apt install code
+
+
 ________________________________VMware Workstation 16 Pro on Ubuntu_______________
 Step 1. Download VMware Workstation Pro From Official Webpage.
 https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
