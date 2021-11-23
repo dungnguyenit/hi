@@ -130,4 +130,15 @@ sudo apt install gcc build-essential
 Step 4. Install VMware workstation pro
 sudo ./VMware-Workstation-Full-16.1.0 17198959.x86_64.bundle 
 
+Key VMWare 16 full active
+ZF3R0-FHED2-M80TY-8QYGC-NPKYF
+YF390-0HF8P-M81RQ-2DXQE-M2UT6
+ZF71R-DMX85-08DQY-8YMNC-PPHV8
+
+Key VMWare 15 full active
+UZ3J8-D8F5M-M84LZ-W6WZZ-WP8T6
+AZ5NK-4TGEJ-088PZ-96X5X-ZL2T4
+VV510-AWYE1-M85QZ-NMYZG-QA8W6
+
+
 
