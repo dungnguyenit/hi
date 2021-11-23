@@ -112,8 +112,20 @@ wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt update
 sudo apt install code
-___________
+________________________________VMware Workstation 16 Pro on Ubuntu_______________
+Step 1. Download VMware Workstation Pro From Official Webpage.
+https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
 
+Step 2. Change the VMware Workstation bundle permission to Chmod +X
+chmod +x VMware-Workstation-Full-16.1.0-17198959.x86_64.bundle
+//Kiểm tra xem gói có thực thi được hay không, nhập lệnh này
+ls -la | grep VMware-Workstation-Full-16.1.0-17198959.x86_64.bundle 
+Step 3. Check or Install GNU Compiler Collection and Build Essential
+sudo apt update
 
+//These were the basic prerequisites to install VMware workstation pro successfully.
+sudo apt install gcc build-essential
+Step 4. Install VMware workstation pro
+sudo ./VMware-Workstation-Full-16.1.0 17198959.x86_64.bundle 
 
 
